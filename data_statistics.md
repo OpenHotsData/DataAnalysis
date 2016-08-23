@@ -221,7 +221,7 @@ An additional bar could designate the current season.
   data from the specified version is shown. "Latest version" should be its own
   option and should always be on top for easy accessibility.  An extension to
   this would be to restrict the data only to a particular season.
-- _Effective damage_: Damage that went towards an actual hero kill. For example:
+- _Lethal damage_: Damage that went towards an actual hero kill. For example:
   Simply shooting Chen with Valla while he keeps drinking would give very high
   hero damage, but the damage is completely wasted and useless. Ideally, we can
   record what went towards a hero kill. We can get at that info because the game
