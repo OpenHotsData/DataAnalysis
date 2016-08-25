@@ -112,10 +112,10 @@ In addition, we distinguish between the following calculation types of data:
         - Games won
     - Calculated
         - Popularity
-        - Win rate -> Should be calculated as follows: If the hero is played
-          1000 times in the period, and when taking talent X, 500 games resulted
-          in a win, the win% is 50% for that talent. Do independently for every
-          talent
+        - Win rate -> Should be calculated as follows: If the talent is picked
+          1000 times in the calculation period and 500 of those games resulted
+          in a win, the win% is 50% for that talent/build. Do independently for every
+          talent.
         - Standard set of averages per game for this talent / build
     - Historicized
       - All data
