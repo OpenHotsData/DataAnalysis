@@ -85,6 +85,12 @@ In addition, we distinguish between the following calculation types of data:
         - Popularity
         - Win rate
         - Win rate delta w.r.t. specified time period (adjusted by player)
+        - Win rate with best known talent build. For this to work, take
+          into consideration all talent builds and strike an appropriate
+          balance between reliability and win rate. Meaning: A build that
+          has a winrate of 100% but only with 5 games played is useless,
+          whereas a build with a win rate of 57.2% and 1200 games played
+          gives far better information.
         - Standard set of averages per game for this hero
 
     - Historicized
@@ -106,17 +112,17 @@ In addition, we distinguish between the following calculation types of data:
         - Heroes
 
 
-- Talents / Talent builds
+- Talent builds
     - Direct
         - Games played
         - Games won
     - Calculated
         - Popularity
-        - Win rate -> Should be calculated as follows: If the talent is picked
+        - Win rate -> Should be calculated as follows: If the build is picked
           1000 times in the calculation period and 500 of those games resulted
-          in a win, the win% is 50% for that talent/build. Do independently for every
-          talent.
-        - Standard set of averages per game for this talent / build
+          in a win, the win% is 50% for that build. Do independently for every
+          talent build.
+        - Standard set of averages per game for this build
     - Historicized
       - All data
      
